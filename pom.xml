@@ -8,11 +8,11 @@
 		<version>2.1.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.t2.microservice.eureka</groupId>
-	<artifactId>t2-microservice-eureka</artifactId>
+	<groupId>com.sd.ms.discovery</groupId>
+	<artifactId>ms-discovery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>t2-microservice-eureka</name>
-	<description>microservice proxy - type 2</description>
+	<name>ms-discovery</name>
+	<description>microservice discovery - eureka</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -20,7 +20,7 @@
 	</properties>
 
 	<dependencies>
-         <dependency>
+		<dependency>
              <groupId>org.springframework.cloud</groupId>
              <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
          </dependency>
